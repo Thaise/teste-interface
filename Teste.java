@@ -14,7 +14,7 @@ public class Teste{
 		}
 		double media = calcularMedia(notasParaMedia);
 		String situacao = avaliarSituacao(media);
-		JOptionPane.showMessageDialog(null, "Sua média é: "+media+" - Você está "+situacao);
+		JOptionPane.showMessageDialog(null, "Sua mï¿½dia ï¿½: "+media+" - Vocï¿½ estï¿½ "+situacao);
 	}
 	
 	public static double calcularMedia(double[] notasParaMedia){
@@ -31,8 +31,7 @@ public class Teste{
 			situacao = "reprovado(a).";
 		}else{
 			situacao = "aprovado(a).";
-		}
-		
+		}	
 		return situacao;
 	}
 }
